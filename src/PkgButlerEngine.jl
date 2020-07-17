@@ -175,7 +175,7 @@ function configure_tagbot!(path, view_vals)
             view_vals["include_custom_registry"] = "true"
             view_vals["JL_CUSTOM_REGISTRY"] = option_value
         end
-    end    
+    end
 end
 
 function add_compathelper(path)
